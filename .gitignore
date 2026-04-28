@@ -1,0 +1,95 @@
+# ===== 排除整个 Go 源码目录 =====
+go/
+
+# ===== 排除临时文档目录 =====
+md文件/
+
+# ===== Node.js =====
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.bak
+**/node_modules.zip
+
+# ===== 构建输出 =====
+dist/
+**/dist/
+build/
+**/build/
+target/
+**/target/
+*.exe
+*.msi
+*.deb
+*.dmg
+*.app
+*.AppImage
+
+# ===== Rust/Tauri =====
+**/src-tauri/target/
+**/src-tauri/WixTools/
+Cargo.lock
+**/Cargo.lock
+
+# ===== Flutter/Dart =====
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+
+# ===== IDE 和编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===== 操作系统 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== 日志文件 =====
+*.log
+logs/
+**/logs/
+
+# ===== 环境变量 =====
+.env
+.env.local
+.env.*.local
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+~$*
+
+# ===== 压缩文件 =====
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===== 已完成的功能文档（可选保留） =====
+completed_features.txt
+
+# ===== Word 临时文件 =====
+~$*.docx
+~$*.doc

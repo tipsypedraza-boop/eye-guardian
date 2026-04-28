@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.3.0
+Type=Application
+Name=护眼精灵
+Name[zh_CN]=护眼精灵
+Name[en_US]=Eye Guardian
+Comment=智能护眼应用，守护您的视力健康
+Comment[zh_CN]=智能护眼应用，守护您的视力健康
+Comment[en_US]=Smart eye care application to protect your vision
+Exec=eye-guardian
+Icon=eye-guardian
+Terminal=false
+Categories=Utility;Health;
+Keywords=eye;health;care;vision;护眼;健康;视力;
+StartupNotify=true
+StartupWMClass=eye-guardian
